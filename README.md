@@ -55,5 +55,4 @@ npm install grunt-sass --save-dev
 ```bower init```
 
 Now you can download any bower packages required for your project. Remember that in most cases your bower packages are requirements for your poject so instead of `--save-dev` use `--save` to install them. For example:
-
 `bower install --save bootstrap`
