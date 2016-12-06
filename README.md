@@ -42,11 +42,13 @@ Review and Accept the changes you just made. Go inside the `package.json` file a
 2. Install grunt in your project folder:  
 `npm install grunt --save-dev`
 3. Install all required packages:    
-```npm install grunt-contrib-concat --save-dev  
+```
+npm install grunt-contrib-concat --save-dev
 npm install grunt-contrib-uglify --save-dev  
 npm install grunt-contrib-watch --save-dev  
 npm install grunt-autoprefixer --save-dev  
-npm install grunt-sass --save-dev```
+npm install grunt-sass --save-dev
+```
 
 ## 6: Setup bower.json
  Setup bower.json by running the following command in terminal:  
