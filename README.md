@@ -11,12 +11,12 @@ First [create a new repositoty](https://help.github.com/articles/creating-a-new-
 
 ## 2: Folder Structure
 On your local machine create your new project folder in your `Sites` directory and setup the following folder structure inside it:
-- Builds
- - Development
- - Production
-- Components
- - Sass
- - Scripts
+- builds
+ - development
+ - production
+- components
+ - sass
+ - scripts
  
 ## 3: Setup package.json
  Setup package.json by running the following command in terminal:  
