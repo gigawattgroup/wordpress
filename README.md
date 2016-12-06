@@ -2,8 +2,10 @@
 New Wordpress Project setup instructions for _Noobs_!
 ## Initial One Time Setup:
 1. Make sure you have Node.js setup on your system.
+
 2. Install Grunt CLI globally on your system:  
 `sudo npm install -g grunt-cli`
+
 3. Install Bower globally on your system:  
 `sudo npm install -g bower`
 
@@ -39,8 +41,10 @@ Review and Accept the changes you just made. Go inside the `package.json` file a
 
 ## 5: Setup Gruntfile.js
 1. Create a file in your project folder called `Gruntfile.js` and use the example provided in this repo.
+
 2. Install grunt in your project folder:  
 `npm install grunt --save-dev`
+
 3. Install all required packages:    
 ```
 npm install grunt-contrib-concat --save-dev
