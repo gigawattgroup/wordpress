@@ -60,3 +60,20 @@ npm install grunt-sass --save-dev
 
 Now you can download any bower packages required for your project. Remember that in most cases your bower packages are requirements for your poject so instead of `--save-dev` use `--save` to install them. For example:
 `bower install --save bootstrap`
+
+## 7: Install WordPress
+
+1. Select a one word all lowercase handle or slug for this project. For example: 'gigawatt'. We will use this handle or slug throughout the next few steps.
+
+2. Download the latest copy of [WordPress CMS](https://wordpress.org/) from the wordpress.org website. Then unzip it inside the *builds* folder. Rename the *wordpress* folder to *development* effectively replacing the empty *development* folder we created earlier.
+
+3. Now using MySQL CLI or phpmyadmin create a new empty database and name it the same as your handle/slug for the poject.
+
+## 8: Underscores Starter Theme
+1. Go to [Underscores.me](https://underscores.me/) and select *Advanced Options*.
+
+2. Make sure to use the project slug/handle as the theme slug in the options.
+
+3. Check the *Sassify* option.
+
+4. Download and unzip underscores inside the themes directory of the wordpress install you created.
