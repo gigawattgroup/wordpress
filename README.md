@@ -72,8 +72,26 @@ Now you can download any bower packages required for your project. Remember that
 ## 8: Underscores Starter Theme
 1. Go to [Underscores.me](https://underscores.me/) and select *Advanced Options*.
 
-2. Make sure to use the project slug/handle as the theme slug in the options.
+ - **Theme Name:** Use an appropriate theme name.
+ - **Theme Slug:** Use the project slug/handle we created in the Install WordPress step. :exclamation: 
+ - **Author:** The Gigawatt Group
+ - **Author URI:** http://gigawattgroup.com
+ - **Description:** 
+ - **_sassify!** :ballot_box_with_check:
 
-3. Check the *Sassify* option.
+2. Download and unzip underscores inside the themes directory of the wordpress install you created.
 
-4. Download and unzip underscores inside the themes directory of the wordpress install you created.
+3. Inside the new Underscores theme move the *sass* folder and merge with the sass folder inside *components*.
+
+4. Create the following empty files with their folders inside your Underscores theme folder:
+ ```
+- js/main.js
+- js/main.min.js
+- css/main.css
+- css/main.min.css
+ ```
+5. Within the style.css file remove all css code below the opening comments and replace with:
+
+ ```css
+@import "css/main.min.css";
+ ```
