@@ -63,7 +63,7 @@ Now you can download any bower packages required for your project. Remember that
 
 ## 7: Install WordPress
 
-1. Select a one word all lowercase handle or slug for this project. For example: 'gigawatt'. We will use this handle or slug throughout the next few steps.
+1. Select a one word all lowercase handle or slug for this project. For example: **gigawatt**. We will use this handle or slug throughout the next few steps.
 
 2. Download the latest copy of [WordPress CMS](https://wordpress.org/) from the wordpress.org website. Then unzip it inside the *builds* folder. Rename the *wordpress* folder to *development* effectively replacing the empty *development* folder we created earlier.
 
@@ -81,7 +81,7 @@ Now you can download any bower packages required for your project. Remember that
 
 2. Download and unzip underscores inside the themes directory of the wordpress install you created.
 
-3. Inside the new Underscores theme move the *sass* folder and merge with the sass folder inside *components*.
+3. Inside the new Underscores theme move the `sass` folder and merge with the `sass` folder inside `components`.
 
 4. Create the following empty files with their folders inside your Underscores theme folder:
  ```
@@ -93,5 +93,11 @@ Now you can download any bower packages required for your project. Remember that
 5. Within the style.css file remove all css code below the opening comments and replace with:
 
  ```css
+@import "css/main.css";
+ ```
+ 
+ And for production replace it with:
+ 
+  ```css
 @import "css/main.min.css";
  ```
